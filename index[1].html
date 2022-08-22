@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👌STRING CONVERTER</title>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: auto;
+        }
+
+        body {
+            background-image: url("data:image/jpeg;base64,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");
+            background-repeat: no-repeat;
+            background-size: 100rem 50rem;
+        }
+
+        .container {
+            display: flex;
+
+            margin-top: 10%;
+        }
+
+        h1 {
+            margin: 2rem;
+            font-size: 4rem;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <script>
+        var up, low, c;
+
+        function upper() {
+            var upc = document.getElementById("name").value;
+            up = upc.toUpperCase();
+            document.getElementById("upr").innerHTML = up;
+        }
+
+        function lower() {
+            var upc = document.getElementById("name").value;
+            low = upc.toLowerCase();
+            document.getElementById("lwr").innerHTML = low;
+        }
+
+        function number() {
+            var upc = document.getElementById("name").value;
+            c = upc.length;
+            document.getElementById("count").innerHTML = c;
+        }
+        
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>TEXT LAB</h1>
+            <label for="">Enter String:</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <button id="first" onclick="number()">Charaters</button> :<label id="count"></label>
+            <br>
+            <br>
+            <button id="second" onclick="upper()">To Uppercase</button> :<label id="upr"></label>
+            <br>
+            <br>
+            <button id="third" onclick="lower()">To Lowercase</button> :<label id="lwr"></label>
+        </div>
+    </div>
+</body>
+
+</html>
